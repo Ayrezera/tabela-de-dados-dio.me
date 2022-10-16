@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando com tabelas</title>
+        <style>
+         table {
+          border: solid 1px gray;
+          -webkit-box-shadow: 32px 22px 0px -4px rgba(0,0,0,0.73);
+          -moz-box-shadow: 32px 22px 0px -4px rgba(0,0,0,0.73);
+            box-shadow: 32px 22px 0px -4px rgba(0,0,0,0.73);
+
+         }
+           table thead th {
+            background-color: black;
+            color: white;
+           }
+           table tfoot td {
+            background-color: lightgray;
+           }
+          table tbody tr:nth-child(even) td {
+            background-color: #f1f1f1;
+          }
+          table tbody tr:hover td {
+            background-color: #e9e9e9;
+            cursor: pointer;
+          }
+        </style>
+</head>
+<body>
+  <table sumary="Cadastro de pessoas com piroquinha" width="500"  align="center" cellspacing="0" cellpadding="5">
+        <caption>tabela de idade dos alunos DIO.ME</caption>
+        <thead>
+          <tr>
+              <th>nome</th>
+              <th>idade</th>  
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Matheus Guilherme</td>
+            <td>24</td>  
+        </tr>
+        <tr>
+          <td>Marcela</td>
+          <td>22</td>  
+        </tr>
+        <tr>
+        <td>Melissa</td>
+        <td>22</td>  
+       </tr>
+       <tr>
+      <td>manuel</td>
+      <td>33</td>  
+       </tr>
+       <tr>
+       <td>lucas</td>
+      <td>45</td>  
+      </tr>
+      <tr>
+        <td>breno</td>
+       <td>31</td> 
+          <tfoot>
+          <tr>
+            <td>total</td>
+           <td>6</td>  
+           </tr>  
+          </tfoot>
+        </table>
+          
+          
+          
+</body>
+</html>
